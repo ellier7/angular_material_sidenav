@@ -1,0 +1,15 @@
+.menu_toggle_btn {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e5e5e5;
+    background-color: #edf0f2;
+}
+
+.toggleIcon {
+    font-size: 26px !important;
+}
+
+.sidenav_toggle_btn {
+    margin-top: 10px;
+    margin-left: 10px
+}

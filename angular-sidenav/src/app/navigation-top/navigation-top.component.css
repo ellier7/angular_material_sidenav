@@ -1,0 +1,39 @@
+.mat-toolbar-layout.top_nav_toolbar {
+    width: 100%;
+}
+
+.mat-toolbar-row.top_nav_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_nav_title{
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.mat-toolbar-row {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 21px 0;
+}
+
+.mat-nav-list.top_nav_list {
+    display: flex;
+    padding: 0
+}
+
+.mat-list-item.top_nav_list_item {
+    color: white;
+}
+
+.mat-list-item.top_nav_list_item.brands {
+    padding-top: 4px;
+}
+
+
+.top_nav_toggle {
+    display: flex;
+    align-items: center;
+}

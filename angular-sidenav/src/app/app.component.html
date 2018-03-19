@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Angular Material Sidenav</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <mat-toolbar class='top_nav_toolbar' role="toolbar">
+    <div class="mat-toolbar-layout top_nav">
+        <app-navigation-top></app-navigation-top>
+    </div>
+</mat-toolbar>
+
+<div class='main_content'>
+    <mat-sidenav-container fullscreen class='sidenav_container'>
+        <app-navigation-left></app-navigation-left>
+    </mat-sidenav-container>
+</div>
+
+</body>
+
+</html>

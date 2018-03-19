@@ -1,0 +1,15 @@
+<mat-accordion multi="false">
+  <mat-expansion-panel class="sideBtn" [ngClass]="sections.background" layout="row" [expanded]="sections.opened" (opened)="setStep(index)">
+      <mat-expansion-panel-header class='sidepanel_header'>
+          <mat-panel-title>
+              <i class={{sections.icon}} style="margin-right: 7px"></i>
+              <span class='menu_title'>{{sections.name}}</span>
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <li class='mat-expansion-panel-body menu-toggle-list' *ngFor="let page of sections.pages">
+          <app-menu-link [sections]="page"></app-menu-link>
+      </li>
+
+  </mat-expansion-panel>
+</mat-accordion>
