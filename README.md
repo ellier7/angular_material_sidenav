@@ -7,6 +7,7 @@ Responsive side navigation using Angular Material<br/><br/>
 
 ### Development
 ```bash
+$ cd angular-sidenav
 $ npm install
 $ ng serve --open
 
