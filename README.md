@@ -5,8 +5,7 @@ Responsive side navigation using Angular Material<br/><br/>
 - sidenav remains open until certain breakpoint is reached - will toggle automatically
 - user can manually close sidenav<br/><br/>
 
-Running the app
-# Development
+### Development
 ```bash
 $ npm install
 $ ng serve --open
